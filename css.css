@@ -1,0 +1,143 @@
+.body {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+}
+
+.nene {
+    position:absolute;
+    left: 10px;
+  
+}
+.title{
+    font-family: sans-serif;
+    color: peru;
+    text-align: unset;
+}
+.tabContainer {
+    width: 100%;
+    height: 100%;
+    border:0px;
+    position: absoluted;
+}
+    .tabContainer .buttonContainer {
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        height: 13%;
+    }
+        .tabContainer .buttonContainer button {
+            width: 25%;
+            height: 100%;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 2px;
+            font-family: sans-serif;
+            font-size: 18px;
+            background-color: red;
+           
+        }
+            .tabContainer .buttonContainer button:hover {
+                background-color: blue;
+                
+            }
+    .tabContainer .tabPanel {
+        height: 100%;
+        background-color: red;
+        width: 100%;
+        color: red;
+        box-sizing: padding-box;
+        font-family: sans-serif;
+        font-size: 22px;
+        display: none;
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+
+
+.ro {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    transform: rotate(180deg);
+    height: 40%;
+    width: 100%;
+    top: 60%;
+    position: fixed;
+    text-transform: uppercase;
+}
+    
+
+    
+
+
+
+
+
+
+
+
+
+/* Style tab links */
+.tablink {
+    background-color: peru;
+    color: white;
+    float: left;
+    border: 2px ;
+    outline: none;
+    cursor: pointer;
+    padding: 1px 0px 0px 0px;
+    font-size: 17px;
+    width: 16.66%;
+    top: 400px;
+    height: 30px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+}
+
+    .tablink:hover {
+        background-color: blue;
+    }
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+    color: peru;
+    display: none;
+   
+    
+    height: 200px;
+    top: 90px;
+    
+    -webkit-transform: rotate(180deg);
+|1    -moz-transform: rotate(18deg);
+}
+
+#recientes {
+    background-color: peru;
+    text-transform: uppercase;
+}
+
+#arimeticas {
+    background-color: peru;
+}
+
+#quimica {
+    background-color: peru;
+}
+
+#fisica {
+    background-color: peru;
+}
+#geometria {
+    background-color: peru;
+}
+#Algebra {
+    background-color: peru;
+}
+
+
+
+
+
